@@ -1,6 +1,7 @@
 # :bat:
 
-* I'm Osvaldo Miranda, writer, (fast) walker and photographer, currently working in data engineering.
+* I'm Osvaldo Miranda, writer, (fast) walker and photographer.
+* I'm currently working in data engineering. You can check out a more formal CV [here](https://omiranda.dev/cv).
 * I love bats. You can tell by my username.
 * Huge fan of Terry Pratchett, The Cure and Zdzisław Beksiński.
 * [My developer website](https://omiranda.dev).
