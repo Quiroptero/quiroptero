@@ -15,4 +15,9 @@ and my black and white ones [here](https://monocromo.blog).
 # Latest blog posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Neovim: Fix error SpellFileMissing caused by disabling the netrw plugin](https://www.omiranda.dev/2024/04/neovim-fix-spellfilemissing-netrw-disabled/)
+- [Removing all the page aliases from my personal blog](https://www.omiranda.dev/2024/01/removing-aliases/)
+- [Building my photoblog using Python](https://www.omiranda.dev/2023/07/monocromo/)
+- [Zsh function to commit in local timezone](https://www.omiranda.dev/2022/10/local-timezone-commit-with-zsh/)
+- [How to divide a directory full of files into new subdirectories based on the filenames](https://www.omiranda.dev/2022/07/how-to-divide-a-directory-into-new-subdirectories/)
 <!-- BLOG-POST-LIST:END -->
