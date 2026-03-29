@@ -1,23 +1,55 @@
-# Things about me
+# Quick facts
 
-* I'm Osvaldo Miranda, writer, fast walker and photographer.
-* I'm currently working as a data engineer.
-If you're looking for a CV/resume, you can check out it [here](https://omiranda.dev/cv).
-* I love bats.
-* Huge fan of Terry Pratchett, The Cure and Zdzisław Beksiński.
-* [My developer website](https://omiranda.dev).
-* [My personal website](https://quiroptero.blog).
-* You can see my regular photos [here](https://paliacate.blog)
-and my black and white ones [here](https://monocromo.blog).
-* We can [get in touch](mailto:contacto@omiranda.dev)!
-* I never know what to say in the About pages.
+```python
+import logging
+import random
 
-# Latest blog posts
 
-<!-- BLOG-POST-LIST:START -->
-- [How to send notifications of blog posts to a Telegram channel](https://www.omiranda.dev/2024/06/telegram-notifications/)
-- [Neovim: Fix error SpellFileMissing caused by disabling the netrw plugin](https://www.omiranda.dev/2024/04/neovim-fix-spellfilemissing-netrw-disabled/)
-- [Removing all the page aliases from my personal blog](https://www.omiranda.dev/2024/01/removing-aliases/)
-- [Building my photoblog using Python](https://www.omiranda.dev/2023/07/monocromo/)
-- [Zsh function to commit in local timezone](https://www.omiranda.dev/2022/10/local-timezone-commit-with-zsh/)
-<!-- BLOG-POST-LIST:END -->
+logging.basicConfig(
+    level=logging.INFO,
+    format="[%(levelname)s]: %(message)s",
+)
+logger = logging.getLogger()
+
+
+ACTIVITIES = [
+  "write code",
+  "design, implement and debug data pipelines",
+  "have a lot of meetings",
+  "talk in English a lot",
+  "turn the stakeholders desires into features",
+  "crush a lot of bugs —no wildlife harmed though,",
+  "write, read, and eat Python",
+]
+
+
+def main():
+    logger.info(f"I {random.choice(ACTIVITIES)} for a living.")
+
+
+if __name__ == "__main__":
+    main()
+```
+
+For a life...
+
+* I take photos.
+* I build websites.
+  * Like a website to showcase my [black & white photography](https://monocromo.blog).
+  * Or another one for [photo albums —and maybe stories](https://paliacate.blog).
+* I walk. Fast.
+* I write.
+  * And built a [personal blog](https://quiroptero.blog) of course!
+* I build tools. Check out this GitHub!
+* I organize photowalks, read a lot and watch movies.
+
+Things I like?
+
+* Bats
+* The Cure
+* Zdzisław Beksiński
+* Talking to people
+* Wandering
+* Terry Pratchett's books
+
+We can [get in touch](mailto:www@osvaldomiranda.me)!
